@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:padding="10dp"
+    android:background="?attr/colorPrimary">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon_img"
+        android:src="@drawable/icon"
+        android:layout_centerInParent="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_below="@id/icon_img"
+        android:layout_centerHorizontal="true"
+        android:text="Personum 照片人数统计"
+        android:textSize="20sp"
+        android:paddingVertical="15dp"
+        android:textFontWeight="800"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/app_version"
+        android:layout_below="@id/app_name"
+        android:layout_centerHorizontal="true"
+        android:text="@string/version"
+        android:textSize="16sp"
+        android:textColor="#DDD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
