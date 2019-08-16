@@ -410,8 +410,8 @@ public class MainActivity extends AppCompatActivity {
      */
     private String getAccessToken() {
         // TODO: 每月手动更新 Access Token
-        // Update: Tue, 23 Jul 2019 13:23:07 GMT
-        return "24.d0e7a5024204cdc4997bf51abc0bbe26.2592000.1566480187.282335-16727034";
+        // Update: Fri, 16 Aug 2019 13:30:30 GMT
+        return "24.b1d51762b984d0363fb780fc67c074e3.2592000.1568554230.282335-16727034";
     }
 
     /**
